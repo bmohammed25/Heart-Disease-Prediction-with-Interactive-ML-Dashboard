@@ -1,5 +1,3 @@
-# Heart-Disease-Prediction-with-Interactive-ML-Dashboard
-An interactive machine learning dashboard built with Dash and Plotly for end-to-end ML workflow visualization. Covers EDA, data preprocessing, classification (Random Forest), clustering (KMeans), and model interpretability (SHAP, LIME, PDP) — applied to heart disease prediction using the Kaggle Heart Disease dataset.
 # 🫀 Heart Disease Prediction — Interactive ML Dashboard
 
 > An end-to-end machine learning workflow dashboard for heart disease prediction, built with Dash and Plotly. Covers EDA, preprocessing, classification, clustering, and model interpretability — all in one interactive web application.
@@ -7,8 +5,6 @@ An interactive machine learning dashboard built with Dash and Plotly for end-to-
 ---
 
 ## 📌 Project Overview
-
-This project was developed as a Capstone for **INFO-6151 — Data Visualization** at **Fanshawe College (2026)**.
 
 The goal was to build a comprehensive, interactive dashboard that assists machine learning practitioners and non-technical stakeholders in visualizing and interpreting every stage of an ML workflow — from raw data exploration through model explainability.
 
@@ -28,16 +24,6 @@ The goal was to build a comprehensive, interactive dashboard that assists machin
 | Recall | 88.2% |
 | F1-Score | 0.882 |
 | ROC-AUC | 0.93 |
-
----
-
-## 🗂️ Project Structure
-
-```
-├── Capston_Project_Group_11.ipynb   # Main Jupyter Notebook (full workflow)
-├── requirements.txt                 # Python dependencies
-└── README.md                        # Project documentation
-```
 
 ---
 
@@ -122,72 +108,6 @@ The Jupyter notebook covers the complete ML pipeline:
 | Oldpeak | ST depression induced by exercise |
 | ST_Slope | Slope of peak exercise ST segment (Up/Flat/Down) |
 | **HeartDisease** | **Target — 0: No Disease, 1: Heart Disease** |
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/heart-disease-ml-dashboard.git
-cd heart-disease-ml-dashboard
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the dataset
-
-```bash
-pip install kagglehub
-```
-
-The notebook handles the download automatically using `kagglehub`. You will need a Kaggle account.
-
-Alternatively, download the CSV manually from [Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) and place it in the project root.
-
-### 4. Run the notebook
-
-```bash
-jupyter notebook Capston_Project_Group_11.ipynb
-```
-
-Run all cells in order. The Dash app launches automatically at the last cell.
-
-### 5. Open the dashboard
-
-```
-http://127.0.0.1:8050/
-```
-
----
-
-## 📦 Requirements
-
-```
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-shap
-lime
-plotly
-dash
-scipy
-kagglehub
-jupyter
-```
-
-Install all at once:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
